@@ -28,7 +28,7 @@ This can’t work without a foundation. We need to know any given note’s uniqu
 3. With Keep now empty, *recreate* all notes in Keep from their copies in Bear.
 	* We know all Bear IDs by default—they’re in the Bear database.
 	* When a “new” note is created using the gkeepapi, we have its identifier and can store it in the metaNotes database.
-	* *Note color will be preserved. Labels, at present, will not.*
+	* **Note color will be preserved. Labels--as of this version--will not.**
 4. After this process, we will know Bear’s unique identifier *and* Keep’s corresponding identifier for every one of our notes.
 
 ## Usage
